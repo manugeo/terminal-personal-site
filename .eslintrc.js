@@ -5,5 +5,6 @@ module.exports = {
     'no-console': 'error',
     'prettier/prettier': 'warn',
     'react-hooks/exhaustive-deps': 'off',
+    'no-mixed-spaces-and-tabs': 'off',
   },
 };

@@ -24,12 +24,12 @@ const sumfetch = async (args: string[]): Promise<string> => {
   }
   else if (config.ascii === 'manugeo') {
     return `                                                  
-             @@@@@@@@@@@@@                   sumfetch: summary display
+             @@@@@@@@@@@@@                   sumfetch: Summary Display
         @@@@               @@@@             -----------
       @@                       @@            ABOUT
     @@                           @@          ${config.name}
-  @@                               @@       ﰩ
- @@                         @@@     @@       <u><a href="${config.resume_url}" target="_blank">resume</a></u>
+  @@                               @@       ﰩ ${config.description}
+ @@                         @@@     @@       <u><a href="${config.resume_url}" target="_blank">Resume</a></u>
 @@        @@@                        @@     爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>
 @@                                   @@     -----------
 @@             .@@@@@@@@@@.          @@      CONTACT 
