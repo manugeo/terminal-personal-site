@@ -32,24 +32,30 @@ export const repo = async (args: string[]): Promise<string> => {
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
 Welcome to my website!
-More about me:
-'sumfetch' - short summary.
+
+I'm a JavaScript Developer with 7 years of experience in web and mobile
+application development. Here are some highlights of my experience:
+
+• Successfully built 4+ web applications and 1 mobile application (React
+Native) from scratch, all of which are being used by thousands of
+people.
+• Led front-end development teams of 4+ developers, onboarded new
+team members, trained them, reviewed code and established guidelines
+and best practices for project development.
+• Founded and currently leading the development of Book A Boat - IN,
+revolutionizing houseboat bookings in the backwaters of Kerala by
+connecting owners directly with customers and driving positive user
+engagement.
+
+Try some of the commands:
 'resume' - my latest resume.
-'readme' - my github readme.`;
+ or
+'weather' - to know the current weather.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
   return 'Opening resume...';
-};
-
-// Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
-`;
 };
 
 // Contact
