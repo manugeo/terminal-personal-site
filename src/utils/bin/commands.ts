@@ -115,8 +115,7 @@ directories`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return `You've reached the end of the universe. Turn back?`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
