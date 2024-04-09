@@ -36,9 +36,9 @@ Welcome to my website!
 I'm a JavaScript Developer with 7 years of experience in web and mobile
 application development. Here are some highlights of my experience:
 
-• Successfully built 4+ web applications and 1 mobile application (React
-Native) from scratch, all of which are being used by thousands of
-people.
+• Spearheaded the end-to-end development of 10+ web applications
+and 3+ mobile applications (using React Native), collectively serving an
+extensive user base exceeding tens of thousands.
 • Led front-end development teams of 4+ developers, onboarded new
 team members, trained them, reviewed code and established guidelines
 and best practices for project development.
@@ -47,7 +47,7 @@ revolutionizing houseboat bookings in the backwaters of Kerala by
 connecting owners directly with customers and driving positive user
 engagement.
 
-Try some of the commands:
+Try some of these commands:
 'resume' - my latest resume.
  or
 'weather' - to know the current weather.`;
