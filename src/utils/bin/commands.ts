@@ -165,11 +165,11 @@ font-style: italic;
         ██║ ╚═╝ ██║██║  ██║██║ ╚████║╚██████╔╝               
         ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝                
         
-                <span style="
+                  <span style="
 font-family: cursive;
 font-size: xx-large;
 font-style: italic;
- ">a JavaScript Developer</span>
+ ">JavaScript Developer</span>
 
 Type 'sumfetch' to display summary.
 Type 'help' to see the list of available commands.
